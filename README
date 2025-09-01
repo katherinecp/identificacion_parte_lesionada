@@ -1,0 +1,7 @@
+echo "# identificacion_parte_lesionada" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/katherinecp/identificacion_parte_lesionada.git
+git push -u origin master
